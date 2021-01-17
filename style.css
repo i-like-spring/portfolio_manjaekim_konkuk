@@ -1,0 +1,27 @@
+body{
+  margin:0;
+}
+  a{
+    color:black;
+    text-decoration:none;
+  }
+  h1{
+    text-align: center;
+    border-bottom:1px solid gray;
+    padding:20px;
+    margin:0;
+  }
+
+  ul{
+    border-right:1px solid gray;
+    width:180px;
+    margin:0;
+    padding:20px;
+    padding-left:30px;
+    padding-right:5px;
+  }
+
+  #grid{
+    display:grid;
+    grid-template-columns: 235px 1fr;
+  }
